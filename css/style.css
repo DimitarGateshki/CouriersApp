@@ -1,0 +1,41 @@
+/* assets/css/style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+}
+#login, #content {
+    max-width: 800px;
+    margin: auto;
+}
+#login form {
+    display: flex;
+    flex-direction: column;
+}
+#login label, #login input, #login button {
+    margin-bottom: 10px;
+}
+#naseleni-mesta, #ofisi, #details {
+    margin-top: 20px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    cursor: pointer;
+    padding: 5px;
+    background-color: #fff;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+}
+li:hover {
+    background-color: #e0e0e0;
+}
+#details div {
+    margin-top: 10px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurierska Firma</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Kurierska Firma</h1>
+    <div id="login">
+        <form id="loginForm">
+            <label for="username">Потребителско име:</label>
+            <input type="text" id="username" name="username" required><br>
+            <label for="password">Парола:</label>
+            <input type="password" id="password" name="password" required><br>
+            <button type="submit">Вход</button>
+        </form>
+    </div>
+    <div id="content" style="display: none;">
+        <div id="naseleni-mesta">
+            <h2>Населени места</h2>
+            <ul id="naseleniMestaList"></ul>
+        </div>
+        <div id="ofisi">
+            <h2>Офиси</h2>
+            <ul id="ofisiList"></ul>
+        </div>
+        <div id="details">
+            <h2>Детайли</h2>
+            <div id="officeDetails"></div>
+            <div id="kurieriDetails"></div>
+            <div id="avtomobiliDetails"></div>
+        </div>
+        <div id="editSection" style="display: none;">
+            <h2>Редактиране</h2>
+            <form id="editForm">
+                <!-- Dynamic form fields will be here -->
+                <button type="submit">Запази</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
